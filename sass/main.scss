@@ -1,0 +1,25 @@
+@import "./utils/vars"; 
+@import "./utils/placeholders"; 
+@import "./utils/hidden";
+  
+@import "./base/reset";  
+@import "./base/common";
+
+@import "./components/container";   
+@import "./components/logo";
+@import "./components/logo-footer";
+@import "./components/btn";   
+@import "./components/socials-comand";
+@import "./components/socials-footer"; 
+@import "./components/btn-portfolio"; 
+@import "./components/modal";   
+ 
+@import "./layout/header";                       
+@import "./layout/business";           
+@import "./layout/property";           
+@import "./layout/foto";                                                     
+@import "./layout/command";                            
+@import "./layout/clients"; 
+@import "./layout/portfolio";      
+@import "./layout/footer";                       
+ 

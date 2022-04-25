@@ -1,0 +1,24 @@
+.main__button{
+    min-width: 200px;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 32px;
+    text-align: center;
+    border: 1px solid transparent;
+
+    color: var(--btn-color);
+    background: #2196F3;
+    cursor: pointer;
+
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.88;
+    font-weight: 700;
+    &:hover, 
+    &:focus{
+    background: #2196F3;
+    
+}
+    
+}
+
