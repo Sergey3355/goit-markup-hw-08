@@ -696,11 +696,11 @@ body {
 }
 
 .menu-open-btn__icon {
-  margin-right: 25px;
+  margin-right: 15px;
 }
 
 .menu-open-btn {
-  margin-right: 15px;
+  margin-right: -15px;
   background: transparent;
   outline: transparent;
   border: 0;
@@ -742,7 +742,7 @@ body {
     transition: opacity 250ms,  visibility 250ms;
     z-index: 9999;
   }
-  .mob-menu .container {
+  .mob-menu .cont {
     height: 100%;
     display: flex;
     flex-direction: column;
