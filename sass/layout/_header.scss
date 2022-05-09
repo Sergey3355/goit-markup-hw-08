@@ -182,6 +182,10 @@
     margin-left: 40px;
 }
 
+.menu-open-btn__icon{
+    margin-right: 25px;
+}
+
 .menu-open-btn{
     margin-right: 15px;
     background: transparent;
@@ -311,6 +315,13 @@
 
 .mob-social_item{
     margin-right: 20px;
+    border-right: 1px solid rgba(33, 33, 33, 0.2);;
+    right: 10px;
+    top: 10px;
+    padding-right: 10px;
+    &:last-child{
+        border: none;
+    }
     &:nth-child(4){
         margin-right: 0;
     }

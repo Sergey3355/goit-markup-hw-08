@@ -308,7 +308,6 @@ body {
 .backdrop__modal {
   position: absolute;
   width: 450px;
-  min-height: 581px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -321,6 +320,13 @@ body {
 @media screen and (min-width: 1200px) {
   .backdrop__modal {
     width: 528px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .backdrop__modal {
+    max-height: 100%;
+    overflow-y: auto;
   }
 }
 
@@ -689,6 +695,10 @@ body {
   margin-left: 40px;
 }
 
+.menu-open-btn__icon {
+  margin-right: 25px;
+}
+
 .menu-open-btn {
   margin-right: 15px;
   background: transparent;
@@ -804,6 +814,14 @@ body {
 
 .mob-social_item {
   margin-right: 20px;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+  right: 10px;
+  top: 10px;
+  padding-right: 10px;
+}
+
+.mob-social_item:last-child {
+  border: none;
 }
 
 .mob-social_item:nth-child(4) {
