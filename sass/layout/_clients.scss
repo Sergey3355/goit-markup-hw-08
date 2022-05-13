@@ -24,15 +24,13 @@
     @media screen and (max-width: 1199px) {
         font-size: 28px;
         line-height: 1.17;
+        margin-bottom: 30px;
     }
 }
 
 .client__list{
         display: flex;
         flex-wrap: wrap;
-    @media screen and (max-width: 767px) {  
-        margin-right: -30px;
-    }
     @media screen and (min-width: 1200px) {
         display: flex;
         justify-content: center;
@@ -47,7 +45,7 @@
         }  
   
     @media screen and (max-width: 768px) {
-        width: calc(100% / 2 - 30px);
+        width: calc(100% / 2 - 15px);
         margin-bottom: 30px;
         margin-right: 30px;
         &:nth-child(2n){

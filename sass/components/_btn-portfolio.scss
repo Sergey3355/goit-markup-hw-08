@@ -1,26 +1,34 @@
-.filters__btn{
-    // margin-bottom: 50px;
-    // display: flex;
-    // justify-content: center; 
-    @media screen and (min-width: 320px) {
-        margin-bottom: 15px;
-        display: flex;
-        flex-wrap: wrap;
-        }
-        @media screen and (min-width: 768px) {
-            margin-bottom: 15px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            }
+// .filters__btn{
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: center;
+//         @media screen and (max-width: 768px) {
+//             justify-content: unset;
+//             margin-bottom: 15px;
+//         }
+//     }
+.filters__btn__u {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    @media screen and (max-width: 767px) {
+        justify-content: unset;
+        margin-bottom: 40px;
     }
-
+    @media (min-width: 768px) and (max-width: 1199px) {
+        margin-bottom: 30px;
+    }
+}
 .filters__btn{
     margin-right: 8px;
     &:nth-child(5){
         margin-right: 0;
-        }
     }
+    @media screen and (max-width: 767px) {
+        margin-bottom: 15px;
+    }
+}
 
 .filters__list{
     padding-top: 50px;

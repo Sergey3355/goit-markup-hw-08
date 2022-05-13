@@ -1,6 +1,6 @@
-.main__business{
+.main__business {
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
     background-color: #2F303A;
     background-size: cover;
     text-align: center;
@@ -9,56 +9,56 @@
     padding-bottom: 200px;
 
     @media screen and (max-width: 767px) {
-        background-image: linear-gradient(
-        rgba(47, 48, 58, 0.4), 
-        rgba(47, 48, 58, 0.4)), 
-        url(../img/Header-img.jpg);
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+            url(../img/Header-img.jpg);
         padding-top: 100px;
-        padding-bottom: 100px; 
+        padding-bottom: 100px;
+
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
-        (min-resolution: 2dppx){
-            background-image: linear-gradient(
-            rgba(47, 48, 58, 0.4), 
-            rgba(47, 48, 58, 0.4)), 
-            url(../img/Header-img-2x.jpg);
+        (min-resolution: 2dppx) {
+            background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)),
+                url(../img/Header-img-2x.jpg);
             padding-top: 100px;
-            padding-bottom: 100px; 
+            padding-bottom: 100px;
         }
     }
 
-    @media screen and (min-width: 768px) {
-        background-image: linear-gradient(
-        rgba(47, 48, 58, 0.4), 
-        rgba(47, 48, 58, 0.4)), 
-        url(../img/Header-img.jpg);
-        @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx){
-        background-image: linear-gradient(
-        rgba(47, 48, 58, 0.4), 
-        rgba(47, 48, 58, 0.4)), 
-        url(../img/Header-img-tab-2x.jpg);
-    }
-}
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+            url(../img/Header-img.jpg);
 
-    @media screen and (min-width: 1200px){
-        background-image: linear-gradient(
-        rgba(47, 48, 58, 0.4), 
-        rgba(47, 48, 58, 0.4)), 
-        url(../img/Img10.jpg);
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
-        (min-resolution: 2dppx){
-        background-image: linear-gradient(
-        rgba(47, 48, 58, 0.4), 
-        rgba(47, 48, 58, 0.4)), 
-        url(../img/Img-desk-2x.jpg);  
+        (min-resolution: 2dppx) {
+            background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)),
+                url(../img/Header-img-tab-2x.jpg);
+                padding-top: 118px;
+                padding-bottom: 118px;
+                
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+            url(../img/Img10.jpg);
+
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)),
+                url(../img/Img-desk-2x.jpg);
         }
     }
 }
 
-.main__item{ 
+.main__item {
     margin-bottom: 30px;
     color: #FFFFFF;
 
@@ -67,9 +67,9 @@
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
     @media screen and (max-width: 1199px) {
-        font-size: 21px;
+        font-size: 26px;
         line-height: 1.6;
     }
 }
-
