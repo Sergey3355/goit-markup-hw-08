@@ -8,7 +8,7 @@
     text-transform: uppercase;
     
     color: #FFFFFF;
-    @media screen and (min-width: 320px) {
+    @media screen and (max-width: 1199px) {
         text-align: center;
     }
 }

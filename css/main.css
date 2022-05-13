@@ -95,6 +95,7 @@ body {
 }
 
 .nav__logo {
+  font-family: 'Raleway', sans-serif;
   width: 145px;
   font-weight: 700;
   font-size: 24px;
@@ -126,6 +127,7 @@ body {
 .footer__logo {
   margin-bottom: 20px;
   display: inline-block;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -134,7 +136,7 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 1199px) {
   .footer__logo {
     display: flex;
     justify-content: center;
@@ -208,7 +210,7 @@ body {
   color: #FFFFFF;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 1199px) {
   .colum__text {
     text-align: center;
   }
@@ -695,12 +697,7 @@ body {
   margin-left: 40px;
 }
 
-.menu-open-btn__icon {
-  margin-right: 15px;
-}
-
 .menu-open-btn {
-  margin-right: -15px;
   background: transparent;
   outline: transparent;
   border: 0;
@@ -1354,6 +1351,12 @@ body {
   }
 }
 
+@media (min-width: 768px) and (max-width: 1199px) {
+  .colum-adress {
+    margin-left: 115px;
+  }
+}
+
 .footer__item {
   font-style: normal;
 }
@@ -1382,9 +1385,15 @@ body {
   margin-left: 70px;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 767px) {
   .colum-social {
     margin: 60px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .colum-social {
+    margin-right: 89px;
   }
 }
 
@@ -1399,7 +1408,7 @@ body {
   .wrapper__columns {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 60px;
   }
 }
@@ -1411,7 +1420,7 @@ body {
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 1199px) {
   .footer__list {
     display: flex;
     justify-content: center;
@@ -1440,7 +1449,7 @@ body {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 1199px) {
   .subscribe-form__text {
     text-align: center;
   }
@@ -1464,6 +1473,7 @@ body {
   height: 50px;
   padding-left: 16px;
   margin-right: 16px;
+  max-width: 450px;
   background-color: transparent;
   border: none;
   border: 1px solid rgba(255, 255, 255, 0.3);
