@@ -110,12 +110,6 @@ body {
   }
 }
 
-@media screen and (min-width: 320px) {
-  .nav__logo {
-    margin-left: 15px;
-  }
-}
-
 .nav__web {
   color: #2196F3;
 }
@@ -704,10 +698,6 @@ body {
 .mob-menu-top {
   position: relative;
   margin-left: 40px;
-}
-
-.menu-open-btn__icon {
-  margin-right: 15px;
 }
 
 .menu-open-btn {
