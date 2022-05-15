@@ -1,7 +1,10 @@
 .footer {
-    padding-bottom: 60px;
+    
     padding-top: 60px;
     background: #2F303A;
+    @media screen and (max-width: 1199px) {
+        padding-bottom: 60px;
+    }
 }
 
 
@@ -134,7 +137,7 @@
     width: 358px;
     height: 50px;
     padding-left: 16px;
-    margin-right: 16px;
+    
     max-width: 450px;
 
     background-color: transparent;
@@ -149,6 +152,9 @@
     @media screen and (max-width: 1199px) {
         width: 100%;
         margin-bottom: 20px;
+    }
+    @media screen and (min-width: 1200px) {
+        margin-right: 12px;
     }
 
     .subscribe-text:hover,
