@@ -273,6 +273,12 @@ body {
   }
 }
 
+@media screen and (min-width: 320px) {
+  .filters__btn:nth-last-child(-n+4) {
+    margin-bottom: 0px;
+  }
+}
+
 .filters__list {
   padding-top: 50px;
   display: inline-block;
